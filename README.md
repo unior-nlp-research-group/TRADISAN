@@ -4,4 +4,5 @@ This repo contains the firs version of TRADISAN, a dataset developed for the Ita
 The current dataset is formed by ... headlines annotated automatically with ...
 
 To cite this work:
+
 Giordano, Luca and di Buono, Maria Pia. 2023.  Assessing Italian News Reliability in the Health Domain through Text Analysis of Headlines. In Proceedings of the 1st International Workshop on Disinformation and Toxic Content Analysis (DiTox 2023) - Language Data and Knowledge 2023.
