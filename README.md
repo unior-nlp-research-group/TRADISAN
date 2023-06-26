@@ -1,5 +1,5 @@
 # TRADISAN
-This repo contains the firs version of TRADISAN, a dataset developed for the Italian language to assess health-related news reliability.
+This repo contains the first version of TRADISAN, a dataset developed for the Italian language to assess health-related news reliability.
 
 The current dataset is formed by ... headlines annotated automatically with ...
 
