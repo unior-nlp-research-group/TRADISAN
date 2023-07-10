@@ -5,8 +5,8 @@ The current dataset consists in 32.100 headlines, each provided with automatic a
 
 | id | source | date | url | headline | char_count | ... | ner |
 | -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
-| 20861 | VoxNews | 2020-03-18 00:00:00 | ... | Voi chiusi in casa: il governo scarcera 12mila criminali | 48 | ... | ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O] |
-| 20862 | VoxNews | 2020-03-18 00:00:00 | ... | Coronavirus, la denuncia della dottoressa: “Tamponi ai vip e non ai medici” | 64 | ... | ['PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] |
+| 3409 | la Repubblica | 2023-01-17 00:00:00 | ... | Così il digiuno modifica il cervello | 31 | ... | ['O', 'O', 'O', 'O', 'O', 'O'] |
+| 15526 | ByoBlu | 2022-09-21 00:00:00 | ... | “BILL GATES HA GESTITO IL COVID PER ARRICCHIRSI”: ORA SE NE ACCORGE ANCHE IL MAINSTREAM | 73 | ... | ['O', 'MISC', 'MISC', 'O', 'MISC', 'O', 'ORG', 'O', 'ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'MISC'] |
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
 
