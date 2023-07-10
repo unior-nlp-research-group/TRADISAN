@@ -4,42 +4,40 @@ This repo contains the first version of TRADISAN ("conTRAstare la DIsinformazion
 The current dataset consists of 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has additional annotations, i.e., lemmas, POS, IOB and NER. We release the dataset in tab-separated values (TSV) format. 
 
 The features are:
-STYLOMETRIC
--char_count = number of characters
--uppercase_word_w = number of words written in uppercase weighted for total number of words
--long_w_w = number of words longer than six characters weighted for total number of words
--consecutive_question_count = number of occurrences of consecutive question marks
--consecutive_excla_count = number of occurrences of consecutive exclamation marks
--quotes_count = number of quotes
--dou_quotes_count = number of double quotes
--single_quote_count = number of single quotes
--ellipses_count = number of ellipses
--direct_discourse = number of direct discourse (defines as a colon followed by double quotation marks)
--typo_count_w = number of typos weighted for total number of words
-
-LEXICAL
--adverb_count_w = number of adverbs weighted for total number of words
--comp_w = number of comparatives weighted for total number of words
--superl_count_w = number of superlatives weighted for total number of words
--currency_w = number of currency-related words weighted for total number of words
--rev_hurtlex_count_w = number of words present in the HurtLex lexicon weighted for total number of words
--hurtlex_score = total HurtLex score computed
--neg_adverbs_count_w = number of negative adverbs weighted for total number of words
--noun_count_w = number of nouns weighted for total number of words
--prop_noun_count_w = number of proper nouns weighted for total number of words
--adj_count_w = number of adjectives weighted for total number of words
--adj_poss_others_w = number of possessive adjectives other than 1st and 2nd person weighted for total number of words
--1st_pers_sing_w = number of 1st personal singular pronouns weighted for total number of words
--2nd_pers_sing_w = number of 2nd personal singular pronouns weighted for total number of words
--digits_w = number of digits weighted for total number of words
--buzzwords_count_w = number of buzzwords weighted for total number of words
-
-SENTIMENT
--nrc_anger_w = number of anger-related words weighted for total number of words
--nrc_trust_w = number of trust-related words weighted for total number of words
--nrc_joy_w = number of joy-related words weighted for total number of words
--opos = positive polarity value computed
--oneg =  negative polarity value computed
+- STYLOMETRIC
+  -char_count = number of characters
+  -uppercase_word_w = number of words written in uppercase weighted for total number of words
+  -long_w_w = number of words longer than six characters weighted for total number of words
+  -consecutive_question_count = number of occurrences of consecutive question marks
+  -consecutive_excla_count = number of occurrences of consecutive exclamation marks
+  -quotes_count = number of quotes
+  -dou_quotes_count = number of double quotes
+  -single_quote_count = number of single quotes
+  -ellipses_count = number of ellipses
+  -direct_discourse = number of direct discourse (defines as a colon followed by double quotation marks)
+  -typo_count_w = number of typos weighted for total number of words
+- LEXICAL
+  -adverb_count_w = number of adverbs weighted for total number of words
+  -comp_w = number of comparatives weighted for total number of words
+  -superl_count_w = number of superlatives weighted for total number of words
+  -currency_w = number of currency-related words weighted for total number of words
+  -rev_hurtlex_count_w = number of words present in the HurtLex lexicon weighted for total number of words
+  -hurtlex_score = total HurtLex score computed
+  -neg_adverbs_count_w = number of negative adverbs weighted for total number of words
+  -noun_count_w = number of nouns weighted for total number of words
+  -prop_noun_count_w = number of proper nouns weighted for total number of words
+  -adj_count_w = number of adjectives weighted for total number of words
+  -adj_poss_others_w = number of possessive adjectives other than 1st and 2nd person weighted for total number of words
+  -1st_pers_sing_w = number of 1st personal singular pronouns weighted for total number of words
+  -2nd_pers_sing_w = number of 2nd personal singular pronouns weighted for total number of words
+  -digits_w = number of digits weighted for total number of words
+  -buzzwords_count_w = number of buzzwords weighted for total number of words
+- SENTIMENT
+  -nrc_anger_w = number of anger-related words weighted for total number of words
+  -nrc_trust_w = number of trust-related words weighted for total number of words
+  -nrc_joy_w = number of joy-related words weighted for total number of words
+  -opos = positive polarity value computed
+  -oneg =  negative polarity value computed
 
 | id | source | date | url | headline | char_count | ... | ner |
 | -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
