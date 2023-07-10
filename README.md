@@ -1,7 +1,7 @@
 # TRADISAN
 This repo contains the first version of TRADISAN, a dataset developed for the Italian language to assess health-related news reliability.
 
-The current dataset consists in 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has additional annotations, i.e., lemmas, IOB, POS and NER.
+The current dataset consists in 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has additional annotations, i.e., lemmas, POS, IOB and NER.
 
 To cite this work:
 
