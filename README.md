@@ -8,6 +8,7 @@ The current dataset consists of 32.100 headlines, each provided with automatic a
 | -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
 | 3409 | la Repubblica | 2023-01-17 00:00:00 | ... | Così il digiuno modifica il cervello | 31 | ... | ['O', 'O', 'O', 'O', 'O', 'O'] |
 | 15526 | ByoBlu | 2022-09-21 00:00:00 | ... | “BILL GATES HA GESTITO IL COVID PER ARRICCHIRSI”: ORA SE NE ACCORGE ANCHE IL MAINSTREAM | 73 | ... | ['O', 'MISC', 'MISC', 'O', 'MISC', 'O', 'ORG', 'O', 'ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'MISC'] |
+
 Two examples from the dataset
 
 In the TSV file, each row corresponds to a news headline (found in the 'headline' column). Each headline has a unique id number, source, date of publication, url, the 31 feature annotations and the additional annotations at the end.
