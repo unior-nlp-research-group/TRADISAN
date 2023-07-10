@@ -3,14 +3,17 @@ This repo contains the first version of TRADISAN ("conTRAstare la DIsinformazion
 
 The current dataset consists of 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has additional annotations, i.e., lemmas, POS, IOB and NER. We release the dataset in tab-separated values (TSV) format. 
 
+
 | id | source | date | url | headline | char_count | ... | ner |
 | -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
 | 3409 | la Repubblica | 2023-01-17 00:00:00 | ... | Così il digiuno modifica il cervello | 31 | ... | ['O', 'O', 'O', 'O', 'O', 'O'] |
 | 15526 | ByoBlu | 2022-09-21 00:00:00 | ... | “BILL GATES HA GESTITO IL COVID PER ARRICCHIRSI”: ORA SE NE ACCORGE ANCHE IL MAINSTREAM | 73 | ... | ['O', 'MISC', 'MISC', 'O', 'MISC', 'O', 'ORG', 'O', 'ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'MISC'] |
+Two examples from the dataset
 
 In the TSV file, each row corresponds to a news headline (found in the 'headline' column). Each headline has a unique id number, source, date of publication, url, the 31 feature annotations and the additional annotations at the end.
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
+
 To cite this work:
 
 Giordano, Luca and di Buono, Maria Pia. 2023.  Assessing Italian News Reliability in the Health Domain through Text Analysis of Headlines. In Proceedings of the 1st International Workshop on Disinformation and Toxic Content Analysis (DiTox 2023) - Language Data and Knowledge 2023.
