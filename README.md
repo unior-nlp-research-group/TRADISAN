@@ -6,7 +6,7 @@ The current dataset consists in 32.100 headlines, each provided with automatic a
 | id | source | date | url | headline | char_count | ... | ner |
 | -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
 | 20861 | VoxNews | 2020-03-18 00:00:00 | ... | Voi chiusi in casa: il governo scarcera 12mila criminali | 48 | ... | ['O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O] |
-
+| 20862 | VoxNews | 2020-03-18 00:00:00 | ... | Coronavirus, la denuncia della dottoressa: “Tamponi ai vip e non ai medici” | 64 | ... | ['PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'PER', 'O', 'O', 'O', 'O', 'O', 'O', 'O'] |
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
 
