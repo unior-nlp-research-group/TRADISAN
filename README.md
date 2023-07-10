@@ -1,9 +1,9 @@
 # TRADISAN
 This repo contains the first version of TRADISAN ("conTRAstare la DIsinformazione in ambito SANitario tramite fake news detection sui social media"), a dataset developed for the Italian language to assess health-related news reliability. It is part of a research project which bears the same name, and is funded by Consortium GARR, the Italian National Research and Education Network.
 
-The current dataset consists of 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has additional annotations, i.e., lemmas, POS, IOB and NER. We release the dataset in tab-separated values (TSV) format. 
+The current dataset consists of 32.100 headlines, each provided with automatic annotations of 31 news reliability features, including stylometric, lexical and sentiment features. Furthermore, each headline has 4 additional annotations, i.e., lemmas, POS, IOB and NER. We release the dataset in tab-separated values (TSV) format.
 
-The features are:
+The 31 features are:
 - STYLOMETRIC
   - char_count = number of characters
   - uppercase_word_w = number of words written in uppercase weighted for total number of words
@@ -39,16 +39,22 @@ The features are:
   - opos = positive polarity value computed
   - oneg =  negative polarity value computed
 
-| id | source | date | url | headline | char_count | ... | ner |
-| -- | ------ | ---- | --- | -------- | ---------- | --- | --- |
-| 3409 | la Repubblica | 2023-01-17 00:00:00 | ... | Così il digiuno modifica il cervello | 31 | ... | ['O', 'O', 'O', 'O', 'O', 'O'] |
-| 15526 | ByoBlu | 2022-09-21 00:00:00 | ... | “BILL GATES HA GESTITO IL COVID PER ARRICCHIRSI”: ORA SE NE ACCORGE ANCHE IL MAINSTREAM | 73 | ... | ['O', 'MISC', 'MISC', 'O', 'MISC', 'O', 'ORG', 'O', 'ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'MISC'] |
+ The 4 additional annotations are:
+ - lemmas = a list of lemmatized tokens (without puntuation)
+ - pos = Part-of-speech tagging 
+ - iob = Inside-Outside-Beginning chunk-tagging
+ - ner = Named Entity Recognition tagging
+
+| id | source | date | url | headline | char_count | ... | oneg | lemmas | ... | ner |
+| -- | ------ | ---- | --- | -------- | ---------- | --- | ---- | ------ | --- | --- |
+| 3409 | la Repubblica | 2023-01-17 00:00:00 | ... | Così il digiuno modifica il cervello | 31 | ... | 0.6437915 | ['così', 'il', 'digiuno', 'modifica', 'il', 'cervello'] | ... | ['O', 'O', 'O', 'O', 'O', 'O'] |
+| 15526 | ByoBlu | 2022-09-21 00:00:00 | ... | “BILL GATES HA GESTITO IL COVID PER ARRICCHIRSI”: ORA SE NE ACCORGE ANCHE IL MAINSTREAM | 73 | ... | 0.0032087807 | ['BILL', 'GATES', 'HA', 'GESTITO', 'IL', 'COVID', 'PER', 'ARRICCHIRSI', 'oRA', 'sE', 'NE', 'ACCORGE', 'ANCHE', 'IL', 'MAINSTREAM'] | ['O', 'MISC', 'MISC', 'O', 'MISC', 'O', 'ORG', 'O', 'ORG', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'O', 'MISC'] |
 
 <p align="center">
 Two examples from the dataset
 </p>  
 
-In the TSV file, each row corresponds to a news headline (found in the 'headline' column). Each headline has a unique id number, source, date of publication, url, the 31 feature annotations and the additional annotations at the end.
+In the TSV file, each row corresponds to a news headline (found in the 'headline' column). Each sample has, in this order, a unique id number, source, date of publication, url, headline, the 31 feature annotations and the additional annotations at the end. The table has 40 columns in total.
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
 
