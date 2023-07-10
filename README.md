@@ -12,8 +12,7 @@ The current dataset consists of 32.100 headlines, each provided with automatic a
 <p align="center">
 Two examples from the dataset
 </p>
-
-
+\\
 In the TSV file, each row corresponds to a news headline (found in the 'headline' column). Each headline has a unique id number, source, date of publication, url, the 31 feature annotations and the additional annotations at the end.
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
