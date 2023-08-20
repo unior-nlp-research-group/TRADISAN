@@ -1,7 +1,7 @@
 # TRADISAN
 This repo contains the first version of **TRADISAN** ("conTRAstare la DIsinformazione in ambito SANitario tramite fake news detection sui social media"), **a dataset developed for the Italian language to assess health-related news reliability**. It is part of a research project which bears the same name, and is funded by Consortium GARR, the Italian National Research and Education Network.
 
-The current dataset consists of **32.100 headlines**, each provided with automatic annotations of **31 news reliability features, including stylometric, lexical and sentiment features**. Furthermore, each headline has **4 additional annotations**, i.e., **lemmas, POS, IOB and NER**. We release the dataset in tab-separated values (TSV) format.
+The current dataset consists of **32.101 headlines**, each provided with automatic annotations of **31 news reliability features, including stylometric, lexical and sentiment features**. Furthermore, each headline has **4 additional annotations**, i.e., **lemmas, POS, IOB and NER**. We release the dataset in tab-separated values (TSV) format.
 
 The 31 features are:
 - **STYLOMETRIC**
