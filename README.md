@@ -14,7 +14,7 @@ The 31 features are:
   - **dou_quotes_count** = number of double quotes
   - **single_quote_count** = number of single quotes
   - **ellipses_count** = number of ellipses
-  - **direct_discourse** = number of direct discourse (defines as a colon followed by double quotation marks)
+  - **direct_discourse** = number of direct discourse (defined as a colon followed by double quotation marks)
   - **typo_count_w** = number of typos weighted for total number of words
 - **LEXICAL**
   - **adverb_count_w** = number of adverbs weighted for total number of words
