@@ -54,6 +54,8 @@ The 31 features are:
 Two examples from the dataset
 </p>  
 
+In the TSV file for the dataset (TRADISAN_dataset.tsv), each row corresponds to a news article. Each sample has, in this order, a unique id number, source, date of publication, headline, body of text, image links and url. The table has 7 columns in total.
+
 In the TSV file for headline features, each row corresponds to a news headline (found in the 'headline' column). Each sample has, in this order, a unique id number, source, date of publication, url, headline, the 31 feature annotations and the additional annotations at the end, after the 31 features. The table has 40 columns in total.
 
 The dataset is released under Creative Commons license CC BY-NC-SA.
