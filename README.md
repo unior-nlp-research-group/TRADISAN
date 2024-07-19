@@ -62,4 +62,4 @@ The dataset is released under Creative Commons license CC BY-NC-SA.
 
 To cite this work:
 
-Giordano, L. & di Buono, M.P. (2023). Assessing Italian News Reliability in the Health Domain through Text Analysis of Headlines. In Carvalho, S. et al. (eds.) (2023). Language, Data and Knowledge 2023 (LDK 2023): Proceedings of the 4th Conference on Language, Data and Knowledge. NOVA FCSH - CLUNL. https://doi.org/10.34619/srmk-injj
+**Giordano, L. & di Buono, M.P. (2023). Assessing Italian News Reliability in the Health Domain through Text Analysis of Headlines. In Carvalho, S. et al. (eds.) (2023). Language, Data and Knowledge 2023 (LDK 2023): Proceedings of the 4th Conference on Language, Data and Knowledge. NOVA FCSH - CLUNL. https://doi.org/10.34619/srmk-injj**
